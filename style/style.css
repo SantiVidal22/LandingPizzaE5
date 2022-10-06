@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&family=Montserrat:wght@100&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
 * {
   font-family: "Montserrat";
   margin: 0;
@@ -28,7 +27,7 @@ html {
   background-color: #252525;
   justify-content: flex-end;
   align-items: center;
-  height: 85px;
+  height: 151px;
 }
 nav ul,
 nav ul li {
@@ -62,9 +61,6 @@ i {
   gap: 80px;
 }
 .bg-color {
-  width: 100%;
-  height: 100%;
-  display: flex;
   background-color: #252525;
   background-size: cover;
 }
@@ -72,7 +68,51 @@ nav ul li a {
   font-family: "Montserrat";
   color: white;
 }
+/* main-section-1 */
 
+main{
+  height: 100%;
+}
+#section-1{
+  display: flex;
+  justify-content: space-around;
+}
+.info-1{
+  display: flex;
+  flex-direction: column;
+  gap: 66px;
+}
+.info-1 h1{
+  font-size: 66px;
+  font-weight: 700;
+  width: 603px;
+}
+.info-1 span{
+  font-size: 51px;
+  font-weight: 700;
+}
+.info-1 p{
+  font-size: 21px;
+  font-weight: 400;
+}
+.info-1 a{
+  padding: 18px 22px;
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
+  width: 166px;
+  border-radius: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+}
+.pizzaimg{
+  display: flex;
+  flex-direction: column;
+}
+.pizzaimg img{
+  width: 265px;
+  height: 265px;
+}
 /* FOOTER*/
 .footer-links {
   display: flex;
