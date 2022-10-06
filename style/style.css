@@ -16,6 +16,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  background-color: rgba(19, 20, 21, 1);
 }
 html {
   scroll-behavior: smooth;
@@ -24,7 +25,6 @@ html {
 
 .header {
   display: flex;
-  background-color: #252525;
   justify-content: flex-end;
   align-items: center;
   height: 151px;
@@ -60,10 +60,6 @@ i {
   display: flex;
   gap: 80px;
 }
-.bg-color {
-  background-color: #252525;
-  background-size: cover;
-}
 nav ul li a {
   font-family: "Montserrat";
   color: white;
@@ -80,7 +76,7 @@ main{
 .info-1{
   display: flex;
   flex-direction: column;
-  gap: 66px;
+  gap: 60px;
 }
 .info-1 h1{
   font-size: 66px;
@@ -122,9 +118,6 @@ main{
   justify-content: center;
   gap: 2rem;
 }
-body {
-  background-color: #252525;
-}
 #footer {
   display: flex;
   flex-direction: column;
@@ -133,7 +126,6 @@ body {
 }
 
 footer p {
-  background-color: #252525;
   color: white;
   text-align: center;
 }
