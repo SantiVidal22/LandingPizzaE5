@@ -12,11 +12,8 @@
 :root {
   --text-white: rgba(255, 255, 255, 1);
 }
-html,
-body {
-  height: 100%;
-  width: 100%;
-  background-color: #252525;
+body{
+  background: #131415;
 }
 html {
   scroll-behavior: smooth;
@@ -35,6 +32,7 @@ nav ul li {
 }
 .header nav {
   display: flex;
+  z-index: 1;
 }
 .header img {
   position: absolute;
@@ -106,6 +104,12 @@ main{
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.103));
+  transition: all 0.4s ease-out;
+}
+.info-1 a:hover{
+  filter: drop-shadow(0 0 0.75rem crimson);
+  transition: all 0.3s ease-in;
 }
 .pizzaimg{
   position: relative;
@@ -136,7 +140,6 @@ main{
   gap: 35px;
   padding: 60px;
 }
-
 footer p {
   color: white;
   text-align: center;
