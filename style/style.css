@@ -55,6 +55,7 @@ i {
 }
 .nav-links a {
   padding-left: 16px;
+  font-weight: 400;
 }
 .nav-links-icon {
   display: flex;
@@ -68,10 +69,12 @@ nav ul li a {
 
 main{
   height: 100%;
+  flex-direction: column;
+  display: flex;
 }
 #section-1{
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
 }
 .info-1{
   display: flex;
@@ -102,12 +105,12 @@ main{
   font-size: 14px;
 }
 .pizzaimg{
-  display: flex;
-  flex-direction: column;
+  position: relative;
 }
 .pizzaimg img{
   width: 265px;
   height: 265px;
+  position: absolute;
 }
 /* FOOTER*/
 .footer-links {
