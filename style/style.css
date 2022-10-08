@@ -10,7 +10,7 @@
   box-sizing: border-box;
 }
 :root {
-  --text-white: rgba(255, 255, 255, 1);
+  --text-white: #ffffff;
 }
 body{
   background: #252525;
@@ -29,6 +29,7 @@ html {
 nav ul,
 nav ul li {
   display: flex;
+  gap: 16px;
 }
 .header nav {
   display: flex;
@@ -52,7 +53,6 @@ i {
   color: #ffa400;
 }
 .nav-links a {
-  padding-left: 16px;
   font-weight: 400;
 }
 .nav-links-icon {
