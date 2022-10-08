@@ -9,6 +9,18 @@
   font-weight: 200;
   box-sizing: border-box;
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
+  border-radius: 12px;
+}
+::-webkit-scrollbar-button{
+  width: 10px;
+  color: white;
+}
+
 :root {
   --text-white: #ffffff;
 }
