@@ -65,6 +65,53 @@ nav ul li a {
 }
 /* main-section-1 */
 
+#section-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+h4 {
+  display: flex;
+  justify-content: left;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 131.02%;
+  padding: 20px 10px;
+  padding-left: 87px;
+}
+
+.food-categ {
+  background: #252525;
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  padding: 25px 38px 75px 38px;
+  border-radius: 15px;
+  width: 147px;
+  height: 171px;
+  
+}
+
+.food-categ h6 {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+}
+
+.food-categ p {
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+border-radius: 15px;
+}
+
+.food-categ::after {
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
+}
+
 main{
   height: 100%;
   flex-direction: column;
@@ -125,6 +172,9 @@ main{
   left: 120px;
   bottom: -14px;
 }
+
+/* Sección 3 */
+
 /* FOOTER*/
 .footer-links {
   display: flex;
