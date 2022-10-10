@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700;900&display=swap');
 * {
   font-family: "Montserrat";
   margin: 0;
@@ -34,32 +34,26 @@ html {
 
 .header {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
   height: 151px;
+  justify-content: space-between;
+  padding: 0px 80px 0px 50px;
 }
 nav ul,
 nav ul li {
   display: flex;
-  gap: 16px;
+  gap: 10px;
 }
 .header nav {
   display: flex;
   z-index: 1;
 }
-.header img {
-  position: absolute;
-  width: 76px;
-  height: 79px;
-  left: 65px;
-  top: 31px;
-}
 .header .nav-links {
   color: #ffa400;
   display: flex;
   flex-direction: row;
-  padding-right: 8rem;
-  gap: 50px;
+  align-items: center;
+  gap: 66px;
 }
 i {
   color: #ffa400;
@@ -69,7 +63,7 @@ i {
 }
 .nav-links-icon {
   display: flex;
-  gap: 80px;
+  gap: 60px;
 }
 nav ul li a {
   font-family: "Montserrat";
@@ -83,7 +77,7 @@ main{
   height: 100%;
   flex-direction: column;
   display: flex;
-  gap: 50px;
+  gap: 60px;
 }
 #section-1{
   display: flex;
@@ -147,21 +141,20 @@ main{
   flex-direction: column;
   justify-content: center;
 }
-
-#section-3 h4{
-  text-align: start;
+.h4-categ{
+  display: flex;
+  padding-left: 60px;
+}
+.h4-categ h4{
+  font-weight: 800;
+  font-size: 15px;
+  padding: 20px 10px;
 }
 .categorias{
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 34px;
-}
-
-h4 {
-  font-weight: 800;
-  font-size: 15px;
-  padding: 20px 10px;
 }
 
 .img-icons{
@@ -210,6 +203,14 @@ border-radius: 15px;
   gap: 30px;
   flex-flow: row wrap;
   justify-content: center;
+}
+.h4-carta{
+  padding-left: 60px;
+}
+.h4-carta h4{
+  font-weight: 500;
+  padding: 20px 0;
+  font-size: 22px;
 }
 .Menu-container{
   display: flex;
@@ -281,9 +282,6 @@ border-radius: 15px;
 /* FOOTER*/
 .footer-links {
   display: flex;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
   justify-content: center;
   gap: 2rem;
 }
@@ -293,7 +291,13 @@ border-radius: 15px;
   gap: 35px;
   padding: 60px;
 }
+#footer .footer-links li a, p{
+  font-weight: 400;
+}
 footer p {
   color: white;
   text-align: center;
+}
+#footer p span{
+  font-weight: 900;
 }
