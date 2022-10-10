@@ -203,6 +203,72 @@ border-radius: 15px;
   border-radius: 15px;
 }
 /* Sección 3-Categorias */
+/*Section de Agustín Assadourian*/
+.Menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+  padding: 20px 5px;
+  max-width: 1200px;
+  background: #252525;
+}
+.Menu-list {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 15px;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+
+}
+.Producto-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Menu-info h3 {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+.Menu-info p {
+  font-size: 14px;
+  color: gray;
+  font-weight: 400;
+}
+
+
+.Menu-offer {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.Menu-offer span {
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.Menu-offer button {
+  width: 80px;
+  height: 30px;
+  font-size: 12px;
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  border-radius: 18px;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  
+}
+
+
+
+
 
 /* FOOTER*/
 .footer-links {
