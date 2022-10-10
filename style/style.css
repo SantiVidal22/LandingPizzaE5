@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;700&display=swap');
 * {
   font-family: "Montserrat";
   margin: 0;
@@ -250,6 +250,7 @@ border-radius: 15px;
   display: flex;
   text-align: center;
   justify-content: space-between;
+  align-items: center;
 }
 
 .Menu-offer span {
@@ -261,14 +262,15 @@ border-radius: 15px;
   font-weight: 700;
 }
 
-.Menu-offer button {
-  width: 80px;
-  height: 30px;
+.Menu-offer a {
   font-size: 12px;
   background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
   border-radius: 18px;
   cursor: pointer;
+  vertical-align: middle;
   letter-spacing: 0.5px;
+  padding: 8px 20px;
+  font-weight: 600;
   
 }
 
