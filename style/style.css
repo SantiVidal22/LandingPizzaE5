@@ -141,12 +141,16 @@ main{
   flex-direction: column;
   justify-content: center;
 }
+
 .h4-categ{
   display: flex;
   padding-left: 60px;
 }
+
 .h4-categ h4{
-  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
   font-size: 15px;
   padding: 20px 10px;
 }
@@ -160,11 +164,16 @@ main{
 .img-icons{
   width: 85px;
   height: 85px;
+  filter: drop-shadow(0 0 0.1rem #FFFFFF);
 }
+
+
 .food-categ span{
-  width: 25px;
-  height: 3px;
-  background-color: #FB103D;
+  width: 24px;
+  height: 4px;
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
 }
 .food-categ {
   display: flex;
@@ -185,17 +194,7 @@ main{
   font-size: 15px;
 }
 
-.food-categ p {
-  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
-box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
-border-radius: 15px;
-}
 
-.food-categ::after {
-  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
-  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
-  border-radius: 15px;
-}
 /* Sección 3-Categorias */
 /*Section de Agustín Assadourian*/
 .nuestro-menu{
