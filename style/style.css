@@ -300,3 +300,70 @@ footer p {
 #footer p span{
   font-weight: 900;
 }
+
+@media(min-width: 700px) and (max-width: 1004px) {  
+  .pizza1 , .pizza2{
+    display: none;
+
+}
+.section-1 {
+width: 100%;
+text-align: center;
+justify-content: center;
+align-items: center;
+gap: 30px;
+}
+.categorias , .nuestro-menu {
+  flex-wrap: wrap;
+}
+.nuestro-menu{
+
+}
+#carta{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+}
+
+@media(min-width: 300px) and (max-width: 700px) {
+  .pizza1 , .pizza2, .header nav{
+    display: none;
+    }
+    .categorias{
+      flex-wrap: wrap;
+    }
+    .info-1 h1 , .info-1 span {
+      font-size: 2rem;
+      width: unset;
+    }
+    .info-1{
+      padding-left: unset;
+      align-items: center;
+    }
+    #section-1{
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+    }
+    .Menu-list{
+      width: 70%;
+      height: unset;
+    }
+  .Menu-list img{
+    width: 100%;
+  }
+    .Producto-info{
+      width: 90%;
+      padding: 1.5rem 0;
+    }
+    .h4-categ {
+      display: unset;
+      padding: 0;
+    }
+    .h4-carta {
+      padding: 0;
+      text-align: center;
+    }
+}
