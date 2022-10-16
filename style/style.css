@@ -71,10 +71,9 @@ nav ul li a {
 }
 /* main-section-1 */
 main {
-  height: 100%;
   flex-direction: column;
   display: flex;
-  gap: 60px;
+  gap: 50px;
 }
 #section-1 {
   display: flex;
@@ -177,12 +176,12 @@ main {
   justify-content: center;
 }
 
-.h4-categ {
+.h2-categ {
   display: flex;
   padding-left: 60px;
 }
 
-.h4-categ h4 {
+.h2-categ h2 {
   display: flex;
   justify-content: center;
   font-weight: 600;
@@ -235,10 +234,10 @@ main {
   flex-flow: row wrap;
   justify-content: center;
 }
-.h4-carta {
+.h2-carta {
   padding-left: 60px;
 }
-.h4-carta h4 {
+.h2-carta h2 {
   font-weight: 500;
   padding: 20px 0;
   font-size: 22px;
@@ -327,7 +326,26 @@ footer p {
   font-weight: 900;
 }
 
-@media (min-width: 700px) and (max-width: 1200px) {
+@media (min-width: 700px) and (max-width: 1258px) {
+  .info-1{
+    width: 100%;
+    padding: 0 60px;
+    align-items: center;
+  }
+  .info-1 h1{
+    width: unset;
+  }
+  h2{
+    padding: 20px 0;
+    text-align: center;
+  }
+  .h2-categ{
+    justify-content: center;
+    padding: unset;
+  }
+  .h2-carta{
+    padding: unset;
+  }
   .pizza1,
   .pizza2 {
     display: none;
@@ -407,28 +425,31 @@ footer p {
     width: 90%;
     padding: 1.5rem 0;
   }
-  .h4-categ {
+  .h2-categ {
     display: unset;
     padding: 0;
   }
-  .h4-carta {
+  .h2-carta {
     padding: 0;
     text-align: center;
   }
   .section2-cards {
-    width: 60%;
     justify-content: center;
   }
   .section2-cont{
     gap: 30px;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
   }
   .padding {
     flex-direction: column;
   }
   .padding img {
     width: 100%;
+  }
+  h2{
+    text-align: center;
+    padding: 20px 0;
+  }
+  #footer{
+    text-align: center;
   }
 }
