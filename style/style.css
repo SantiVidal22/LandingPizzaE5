@@ -327,23 +327,23 @@ footer p {
 }
 
 @media (min-width: 700px) and (max-width: 1258px) {
-  .info-1{
+  .info-1 {
     width: 100%;
     padding: 0 60px;
     align-items: center;
   }
-  .info-1 h1{
+  .info-1 h1 {
     width: unset;
   }
-  h2{
+  h2 {
     padding: 20px 0;
     text-align: center;
   }
-  .h2-categ{
+  .h2-categ {
     justify-content: center;
     padding: unset;
   }
-  .h2-carta{
+  .h2-carta {
     padding: unset;
   }
   .pizza1,
@@ -371,7 +371,7 @@ footer p {
     flex-direction: column;
     justify-content: center;
   }
-  .section2-cont{
+  .section2-cont {
     gap: unset;
     justify-content: space-evenly;
   }
@@ -436,7 +436,7 @@ footer p {
   .section2-cards {
     justify-content: center;
   }
-  .section2-cont{
+  .section2-cont {
     gap: 30px;
   }
   .padding {
@@ -445,11 +445,11 @@ footer p {
   .padding img {
     width: 100%;
   }
-  h2{
+  h2 {
     text-align: center;
     padding: 20px 0;
   }
-  #footer{
+  #footer {
     text-align: center;
   }
 }
