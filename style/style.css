@@ -152,6 +152,7 @@ main {
   text-align: center;
   background: linear-gradient(98.81deg, #ffa100 -0.82%, #ff005c 101.53%);
   border-radius: 18px;
+  font-weight: 600;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
 }
